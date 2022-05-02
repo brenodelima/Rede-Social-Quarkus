@@ -7,5 +7,4 @@ import lombok.Setter;
 @Getter
 public class CriarPostagemRequest {
     private String text;
-
 }

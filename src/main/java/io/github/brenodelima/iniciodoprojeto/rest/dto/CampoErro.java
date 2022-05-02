@@ -10,5 +10,4 @@ import lombok.Setter;
 public class CampoErro {
     private String campoDoErro;
     private String menssagemDeErro;
-
 }

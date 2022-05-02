@@ -5,13 +5,10 @@ import io.github.brenodelima.iniciodoprojeto.rest.dto.RespostaErro;
 import io.github.brenodelima.redesocial.domain.modelo.Usuario;
 import io.github.brenodelima.repository.UsuarioRepository;
 import io.quarkus.hibernate.orm.panache.PanacheQuery;
-import lombok.AllArgsConstructor;
-
 
 import javax.inject.Inject;
 import javax.transaction.Transactional;
 import javax.validation.ConstraintViolation;
-import javax.validation.Valid;
 import javax.validation.Validator;
 import javax.ws.rs.Consumes;
 import javax.ws.rs.DELETE;
